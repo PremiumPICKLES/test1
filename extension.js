@@ -108,11 +108,11 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            Nope: "https://raw.githubusercontent.com" + fork + "/test1/master/blacklists/Nope.json",
+            Nope: "https://rawgit.com/PremiumPICKLES" + fork + "/test1/master/blacklists/Nope.json",
             OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
-
+    
     //Start the bot and extend it when it has loaded.
     $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot.js", extend);
 
