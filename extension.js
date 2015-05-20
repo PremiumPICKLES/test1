@@ -108,7 +108,7 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            Nope: "https://rawgit.com/PremiumPICKLES" + fork + "/test1/master/blacklists/Nope.json",
+            Nope: "https://rawgit.com/" + fork + "/test1/master/blacklists/Nope.json",
             OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
